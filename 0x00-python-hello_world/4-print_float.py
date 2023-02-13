@@ -1,4 +1,3 @@
 #!/usr/bin/python3
-number = 3.14159
-float(number)
-print(f"Float: {number}")
+number = float(3.14159)
+print(f"Float: {number:.2f}")
