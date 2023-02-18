@@ -3,8 +3,10 @@
 def islower(c):
     for i in range (97,123):
         if c != chr(i):
-            a = False
+            for j in range(65, 91):
+                if c == chr(j):
+                    a = False
+                    break
         else:
             a = True
-            break
     return a
