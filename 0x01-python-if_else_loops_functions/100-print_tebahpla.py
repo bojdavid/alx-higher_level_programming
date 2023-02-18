@@ -6,6 +6,6 @@ for i in reversed(range(97, 123)):
         a = chr(i - 32)
     else:
         a = chr(i)
-    print(a, end='')
+    print('{}'.format(a), end='')
     count += 1
 	
