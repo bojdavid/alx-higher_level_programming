@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 count = 0
-for i in range(0,10):
-    for j in range(0,10):
+for i in range(0, 10):
+    for j in range(0, 10):
         if i >= j:
             continue
         else:
