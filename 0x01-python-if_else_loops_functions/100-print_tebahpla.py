@@ -8,4 +8,3 @@ for i in reversed(range(97, 123)):
         a = chr(i)
     print('{}'.format(a), end='')
     count += 1
-	
