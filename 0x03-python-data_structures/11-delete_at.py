@@ -6,9 +6,3 @@ def delete_at(my_list=[], idx=0):
         #my_list = [e for i, e in enumerate(my_list) if i != idx]
         my_list.remove(my_list[idx])
         return my_list
-
-my_list = [1, 2, 3, 4, 5]
-idx = 3
-new_list = delete_at(my_list, idx)
-print(new_list)
-print(my_list)
