@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-number = "as" 
+number = 98 
 print(f'{int(number)} Battery street')
