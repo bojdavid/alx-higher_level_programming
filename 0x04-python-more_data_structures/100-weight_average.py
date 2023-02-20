@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 def weight_average(my_list=[]):
     if bool(my_list) is False:
-        return None
+        return 0
     else:
         sum = 0
         no = 0
