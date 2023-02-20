@@ -2,6 +2,8 @@
 
 def new_in_list(my_list, idx, element):
     a = []
+    if len(my_list) == 0:
+        return my_list
     for i in my_list:
         a.append(i)
 
