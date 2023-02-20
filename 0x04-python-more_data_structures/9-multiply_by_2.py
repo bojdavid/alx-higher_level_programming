@@ -9,4 +9,3 @@ def multiply_by_2(a_dictionary):
         b[key] = a[count]
         count += 1
     return b
-    
