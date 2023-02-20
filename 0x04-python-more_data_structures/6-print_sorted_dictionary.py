@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 def print_sorted_dictionary(a_dictionary):
     a = dict(sorted(a_dictionary.items()))
-    print(a)
     for i, j in a.items():
         print(f'{i}: {j}')
