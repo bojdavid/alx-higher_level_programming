@@ -2,7 +2,8 @@
 def safe_print_division(a, b):
     try:
         c = a / b
-    except ArithmeticError as e:
-        print(e)
+    except Exception as e:
+        c = None
     finally:
-        print('Inside result: {}'.format(c))
+           print('Inside result: {}'.format(c))
+           return c
